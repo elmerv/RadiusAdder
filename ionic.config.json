@@ -1,0 +1,7 @@
+{
+  "name": "DigiHealth",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
