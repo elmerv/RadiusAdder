@@ -27,9 +27,16 @@ export class Tab1Page {
     const options = {
       center:location,
       zoom:15,
-      disableDefaultUI:true
+      disableDefaultUI:false
     }
     this.map = new google.maps.Map(this.mapRef.nativeElement, options);
   }
 
+
+
+  
 }
+
+
+
+// popover test
