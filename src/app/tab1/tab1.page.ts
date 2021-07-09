@@ -34,8 +34,7 @@ export class Tab1Page {
 
     this.map = new google.maps.Map(this.mapRef.nativeElement, options);
     const marker = new google.maps.Marker({
-      position: this.myLatLng,
-      title: 'Sup Chupapi'
+      position: this.myLatLng
     });
     marker.setMap(this.map);
     this.map.addListener('click', (mapsMouseEvent) => {
